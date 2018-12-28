@@ -214,3 +214,27 @@ MAVLINK_FORWARDER=mavlink-routerd
 # will find the debug logs on the memory stick.
 DEBUG=N
 #
+#Values:  Range   Encryption
+EncryptionOrRange=Range
+#0 Auto, 1 Analog, 2 HDMI
+DefaultAudioOut=0
+IsAudioTransferEnabled=0
+IsCamera1Enabled=1
+IsCamera2Enabled=1
+IsCamera3Enabled=1
+IsCamera4Enabled=0
+
+DefaultCameraId=1
+ChannelToListen=7
+
+Camera1ValueMin=1350
+Camera1ValueMax=1650
+
+Camera2ValueMin=700
+Camera2ValueMax=1100
+
+Camera3ValueMin=1900
+Camera3ValueMax=2100
+
+Camera4ValueMin=2300
+Camera4ValueMax=2500
