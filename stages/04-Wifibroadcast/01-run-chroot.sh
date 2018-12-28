@@ -106,11 +106,12 @@ chmod 755 -R /home/pi/RemoteSettings
 chmod 755 /home/pi/cameracontrol/cameracontrolUDP.py
 pip install psutil
 
-cd cd /home/pi
-cd cameracontrol/RCParseChSrc
+cd /home/pi/cameracontrol/RCParseChSrc
+
 make clean
 make RCParseCh
-mv RCParseCh ../RCParseCh
+cp RCParseCh /home/pi/cameracontrol/RCParseCh
+chmod 755 /home/pi/cameracontrol/RCParseCh
 
 
 cd /home/pi/cameracontrol/IPCamera/wifibroadcast-master_original
