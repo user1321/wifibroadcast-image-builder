@@ -54,7 +54,7 @@ log "Download EZWFB - Status"
 sudo git clone https://github.com/RespawnDespair/wifibroadcast-status.git
 
 log "Download EZWFB - Scripts"
-sudo git clone https://github.com/RespawnDespair/wifibroadcast-scripts.git
+sudo git clone https://github.com/user1321/wifibroadcast-scripts.git
 
 log "Download EZWFB - Misc"
 sudo git clone https://github.com/RespawnDespair/wifibroadcast-misc.git
