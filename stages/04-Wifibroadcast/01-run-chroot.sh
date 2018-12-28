@@ -104,6 +104,7 @@ chmod 755 -R /home/pi/RemoteSettings
 #install cameracontrol
 
 chmod 755 /home/pi/cameracontrol/cameracontrolUDP.py
+pip install psutil
 
 cd cd /home/pi
 cd cameracontrol/RCParseChSrc
