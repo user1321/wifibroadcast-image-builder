@@ -65,6 +65,18 @@ sudo git clone https://github.com/RespawnDespair/wifibroadcast-hello_video.git
 log "Download EZWFB - Splash"
 sudo git clone https://github.com/RespawnDespair/wifibroadcast-splash.git
 
+log "Download RemoteSettings"
+sudo git clone https://github.com/user1321/RemoteSettings
+
+log "Download cameracontrol"
+sudo git clone https://github.com/user1321/cameracontrol
+
+log "Download rc-encrypted"
+sudo git clone https://github.com/user1321/wifibroadcast-rc-encrypted
+
+log "Download JoystickIn"
+sudo git clone https://github.com/user1321/JoystickIn
+
 #return
 popd
 popd
