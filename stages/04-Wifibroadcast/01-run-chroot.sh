@@ -89,4 +89,29 @@ sudo make
 cd /opt/vc/src/hello_pi/hello_video
 mv hello_video.bin hello_video.bin.240-befi
 
+#install JoystickIn
+cd /home/pi
+cd JoystickIn/JoystickIn
+make clean
+make
+mv processUDP ../processUDP
 
+
+#Configure scripts
+chmod 755 -R /home/pi/RemoteSettings
+
+#install cameracontrol
+
+chmod 755 /home/pi/cameracontrol/cameracontrolUDP.py
+
+cd cd /home/pi
+cd cameracontrol/RCParseChSrc
+make clean
+make RCParseCh
+mv RCParseCh ../RCParseCh
+
+
+cd /home/pi/cameracontrol/IPCamera/wifibroadcast-master_original
+make
+./keygen
+cat tx.key > rx.key
