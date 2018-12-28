@@ -90,6 +90,7 @@ cd /opt/vc/src/hello_pi/hello_video
 mv hello_video.bin hello_video.bin.240-befi
 
 #install JoystickIn
+apt-get --yes --force-yes install libsodium-dev
 cd /home/pi
 cd JoystickIn/JoystickIn
 make clean
