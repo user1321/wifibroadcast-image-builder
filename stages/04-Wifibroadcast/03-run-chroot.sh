@@ -86,4 +86,8 @@ if [ $? -eq 0 ]; then
   sudo sed -i "s/127.0.1.1.*$CURRENT_HOSTNAME/127.0.1.1\t$NEW_HOSTNAME/g" /etc/hosts
 fi
 
+#enable txpower from command line and RemoteSettings app
+chmod 755 /usr/local/bin/txpower_atheros
+chmod 755 /usr/local/bin/txpower_ralink
+
 
