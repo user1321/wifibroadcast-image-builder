@@ -80,7 +80,7 @@ disable_overscan=1
 #sdtv_mode=2
 
 # Enable audio (loads snd_bcm2835)
-dtparam=audio=off
+dtparam=audio=on
 
 # Enable camera
 start_x=1
