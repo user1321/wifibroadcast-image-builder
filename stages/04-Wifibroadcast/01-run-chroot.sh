@@ -100,6 +100,9 @@ mv processUDP ../processUDP
 
 #Configure scripts
 chmod 755 -R /home/pi/RemoteSettings
+chmod 755 /usr/local/bin/txpower_atheros
+chmod 755 /usr/local/bin/txpower_ralink
+
 apt-get --yes --force-yes install gstreamer1.0-alsa
 
 #install cameracontrol
