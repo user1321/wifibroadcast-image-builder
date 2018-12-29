@@ -87,7 +87,7 @@ if [ $? -eq 0 ]; then
 fi
 
 #enable txpower from command line and RemoteSettings app
-chmod 755 /usr/local/bin/txpower_atheros
-chmod 755 /usr/local/bin/txpower_ralink
+sudo chmod 755 /usr/local/bin/txpower_atheros
+sudo chmod 755 /usr/local/bin/txpower_ralink
 
 
