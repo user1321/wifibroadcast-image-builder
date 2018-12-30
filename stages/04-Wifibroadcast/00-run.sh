@@ -42,7 +42,7 @@ sudo git submodule update --init
 popd
 
 log "Download EZWFB - OSD"
-sudo git clone https://github.com/RespawnDespair/wifibroadcast-osd-orig.git wifibroadcast-osd
+sudo git clone https://github.com/user1321/wifibroadcast-osd-orig.git wifibroadcast-osd
 pushd wifibroadcast-osd
 sudo git submodule update --init
 popd
