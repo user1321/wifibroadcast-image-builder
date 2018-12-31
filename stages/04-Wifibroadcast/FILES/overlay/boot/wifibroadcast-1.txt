@@ -238,3 +238,6 @@ Camera3ValueMax=2100
 
 Camera4ValueMin=2300
 Camera4ValueMax=2500
+
+#Values 1 - Enabled, 0 - Disabled, 60 ( or any other digit) time in seconds before auto disabled in case if no phone will be connected
+RemoteSettingsEnabled=1
