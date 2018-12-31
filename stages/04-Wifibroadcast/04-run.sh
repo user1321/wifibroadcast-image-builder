@@ -22,9 +22,9 @@ sudo make KERNELRELEASE=$KERNEL_VERSION_V7 install
 sudo depmod -a -w $KERNEL_VERSION_V7
 
 # move this to 00 script
-cd /home/pi/flir
-sudo git clone https://github.com/fnoop/flirone-v4l2.git
-cd flirone-v4l2
-sudo make
+#cd /home/pi/flir
+#sudo git clone https://github.com/fnoop/flirone-v4l2.git
+#cd flirone-v4l2
+#sudo make
 
 EOF
