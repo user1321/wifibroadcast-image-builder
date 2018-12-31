@@ -3,12 +3,12 @@
 import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(1, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(20, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(7, GPIO.IN, pull_up_down=GPIO.PUD_UP)
+GPIO.setup(21, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
-input_state0 = GPIO.input(1)
-input_state1 = GPIO.input(7)
+input_state0 = GPIO.input(20)
+input_state1 = GPIO.input(21)
 
 # True = not connected, False = connected to GND
 
