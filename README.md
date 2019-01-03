@@ -13,6 +13,8 @@ Then git clone this repository to a suitable folder
 
 ```
 git clone https://github.com/RespawnDespair/wifibroadcast-image-builder.git
+For easy copy paste (Original project upper):
+git clone https://github.com/user1321/wifibroadcast-image-builder.git
 cd wifibroadcast-image-builder
 ```
 
