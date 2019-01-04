@@ -116,7 +116,6 @@ cp RCParseCh /home/pi/cameracontrol/RCParseCh
 chmod 755 /home/pi/cameracontrol/RCParseCh
 
 
-cd /home/pi/cameracontrol/IPCamera/wifibroadcast-master_original
+cd /home/pi/cameracontrol/IPCamera/svpcom_wifibroadcast
 make
-./keygen
-cat tx.key > rx.key
+./wfb_keygen
