@@ -117,5 +117,6 @@ chmod 755 /home/pi/cameracontrol/RCParseCh
 
 
 cd /home/pi/cameracontrol/IPCamera/svpcom_wifibroadcast
+chmod 755 version.py
 make
 ./wfb_keygen
