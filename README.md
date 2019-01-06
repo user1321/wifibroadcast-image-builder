@@ -18,6 +18,15 @@ git clone https://github.com/user1321/wifibroadcast-image-builder.git
 cd wifibroadcast-image-builder
 ```
 
+To compile 5\10MHz version use:
+
+```
+ git clone -b user1321-5MHzAth9k https://github.com/user1321/wifibroadcast-image-builder.git
+ cd wifibroadcast-image-builder
+ ```
+
+Warning: Experimental and untested!!! 
+
 and run:
 
 ```
