@@ -24,6 +24,14 @@ To compile 5\10MHz version use:
  git clone -b user1321-5MHzAth9k https://github.com/user1321/wifibroadcast-image-builder.git
  cd wifibroadcast-image-builder
  ```
+ 
+Not recommended for use!
+To compile 5\10 MHz + Code for MCP3008 that used too add 4 (missing) Axis to cheap USB joystick use:
+Warning -  As MCP3008 is a hardware microchip that connected to RPi. Look at source codes of RC-joystick program before use it and read datasheet how to use it to avoid hardware damage.
+
+```
+git clone -b user1321-5MhzAth9k-MCP3008 https://github.com/user1321/wifibroadcast-image-builder.git
+ ```
 
 Warning: Experimental and untested!!! 
 
