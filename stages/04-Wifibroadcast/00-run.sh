@@ -48,7 +48,8 @@ sudo git submodule update --init
 popd
 
 log "Download EZWFB - RC"
-sudo git clone -b user1321-5MHzAth9k https://github.com/user1321/wifibroadcast-rc-orig.git wifibroadcast-rc
+sudo git clone  https://github.com/user1321/wifibroadcast-rc-orig.git wifibroadcast-rc
+sudo git clone -b user1321-5MHzAth9k https://github.com/user1321/wifibroadcast-rc-orig.git wifibroadcast-rc-Ath9k
 
 log "Download EZWFB - Status"
 sudo git clone https://github.com/RespawnDespair/wifibroadcast-status.git
