@@ -214,7 +214,7 @@ MAVLINK_FORWARDER=mavlink-routerd
 # will find the debug logs on the memory stick.
 DEBUG=N
 #
-#Values:  Range   Encryption
+#Values:  Range   Encryption RangeAth9k  (in case of RangeAth9k PrimaryCardMAC used as Tx card)
 EncryptionOrRange=Range
 #0 Auto, 1 Analog, 2 HDMI
 DefaultAudioOut=0
@@ -242,6 +242,8 @@ Camera4ValueMax=2500
 #Values 1 - Enabled, 0 - Disabled, 60 ( or any other digit) time in seconds before auto disabled in case if no phone will be connected
 RemoteSettingsEnabled=1
 
+UplinkSpeed=11
+DefaultBandWidthAth9k=20
 #BandSwitcher
 IsBandSwicherEnabled=1
 ChannelToListen2=2
