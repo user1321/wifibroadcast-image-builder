@@ -243,7 +243,7 @@ Camera4ValueMax=2500
 RemoteSettingsEnabled=1
 
 UplinkSpeed=11
-DefaultBandWidthAth9k=20
+Bandwidth=20
 #BandSwitcher
 IsBandSwicherEnabled=1
 ChannelToListen2=2
