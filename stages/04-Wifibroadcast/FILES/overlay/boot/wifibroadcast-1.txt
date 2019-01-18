@@ -54,7 +54,7 @@ FREQ_TX[1]=2472
 DATARATE=4
 #
 # FEATURE WIFI BANDWIDTH SETTINGS: If ath9k Wi-Fi card, users can choose between 3 bandwidth options: 20mhz, 10mhz or 5mhz. 
-***Default @ 20mhz compatible with all Wireless cards. 5/10mhz Bandwidth options will result in 1/4 & 1/2 of total available Datarate/Mbit of the selected Wi-Fi datarate option (1-6) selected above.
+#***Default @ 20mhz compatible with all Wireless cards. 5/10mhz Bandwidth options will result in 1/4 & 1/2 of total available Datarate/Mbit of the selected Wi-Fi datarate option (1-6) selected above.
 #
 # Default Bandwidth:5, 10 or 20.
 #
